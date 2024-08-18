@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: none;
+  -webkit-tap-highlight-color: transparent; /* Убирает серый фон при нажатии на мобильных устройствах */
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover {
+    transform: scale(1.1); /* Увеличение на 10% */
+    background-color: rgba(0, 0, 0, 0.1); /* Легкое затемнение фона */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени */
+}
+
+
+a:active {
+    transform: scale(1.05); /* Немного уменьшается при нажатии */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Уменьшение тени */
+}

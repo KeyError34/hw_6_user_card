@@ -1,0 +1,46 @@
+.decorationBorder{
+   border: 15px solid rgb(200 218 194);
+}
+.userProfileContainer {
+  font-family: "Courier New", Courier, monospace;
+  padding: 40px; 
+  background-color: rgb(203 243 164);
+  box-sizing: border-box;
+  
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  max-width: max-content;
+ 
+  .userProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 40px;
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+    h1 {
+      font-size: 26px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      color: rgba(3, 3, 3, 0.8);
+    }
+  }
+  .buttonsContainer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 10px;
+    button{
+      padding: 4px 8px;
+      background-color: rgb(221 221 221);
+      border: none;
+    }
+  }
+}
